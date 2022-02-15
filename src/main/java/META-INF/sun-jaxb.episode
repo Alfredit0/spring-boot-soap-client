@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.02.15 a las 05:26:48 PM CST 
+
+  -->
+      
+    <bindings xmlns:tns="http://thomas-bayer.com/blz/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.alfred.demo.soap.stub"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:getBankType">
+                  
+            <class ref="com.alfred.demo.soap.stub.GetBankType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getBankResponseType">
+                  
+            <class ref="com.alfred.demo.soap.stub.GetBankResponseType"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:detailsType">
+                  
+            <class ref="com.alfred.demo.soap.stub.DetailsType"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
